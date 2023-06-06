@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>OrganicMart</title>
+    <link rel="stylesheet" type="text/css" href="organicmart.css">
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to SRNR</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Cart</a></li>
+            <li><a href="#">Profile</a></li>
+        </ul>
+        <div class="search-bar">
+            <input type="text" placeholder="Search products">
+            <button type="submit">Search</button>
+        </div>
+    </nav>
+
+    <main>
+        <section id="products">
+            <h2>Featured Products</h2>
+            <div class="product">
+                <img src="mango.jpeg" alt="mango image">
+                <h3>Mango</h3>
+                <p>Each serving of mango is fat free, sodium free and cholesterol free</p>
+                <span>₹40</span>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="cocunut.jpeg" alt="Coconut image">
+                <h3>Coconut</h3>
+                <p>oconuts are especially high in manganese, which is essential for bone health and the metabolism of carbohydrates,
+                proteins, and cholesterol</p>
+                <span>₹50</span>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="lemon.jpeg" alt="lemon image">
+                <h3>Lemon 100 g</h3>
+                <p>The average lemon contains eight seeds and three tablespoons of juice.</p>
+                <span>₹19</span>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="apple.jpeg" alt="apple image">
+                <h3>apple</h3>
+                <p>Apple's are a good source of vitamin C, Vitamin E, and fiber. Having an apple every day keeps the doctor away.</p>
+                <span>₹40</span>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <!-- Add more product listings here -->
+        </section>
+
+        <aside id="cart">
+            <h2>Shopping Cart</h2>
+            <ul>
+                <!-- Cart items will be dynamically added here -->
+            </ul>
+            <div class="cart-total">
+                <span>Total:</span>
+                <span>₹0.00</span>
+            </div>
+            <button class="checkout">Checkout</button>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 OrganicMart. All rights reserved.</p>
+    </footer>
+
+    <script src="organicmart.js"></script>
+</body>
+
+</html>
+
+
+    
